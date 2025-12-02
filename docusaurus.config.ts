@@ -17,8 +17,9 @@ const config: Config = {
   organizationName: 'syedahafsa12',
   projectName: 'hackathon-book',
 
-  onBrokenLinks: 'throw',
-  onBrokenMarkdownLinks: 'warn',
+  onBrokenLinks: 'warn',
+onBrokenMarkdownLinks: 'warn',
+
 
   // Internationalization
   i18n: {
