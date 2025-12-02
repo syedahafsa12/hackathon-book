@@ -1,0 +1,120 @@
+/**
+ * Any CSS included here will be global. The classic template
+ * bundles Infima by default. Infima is a CSS framework designed to
+ * work well for content-centric websites.
+ */
+
+/* You can override the default Infima variables here. */
+:root {
+  /* Purple Theme Variables */
+  --ifm-color-primary: #8a2be2;
+  /* BlueViolet */
+  --ifm-color-primary-dark: #731bc4;
+  --ifm-color-primary-darker: #6c19b9;
+  --ifm-color-primary-darkest: #591599;
+  --ifm-color-primary-light: #a14bf5;
+  --ifm-color-primary-lighter: #ab5bf6;
+  --ifm-color-primary-lightest: #ca8bf9;
+  --ifm-code-font-size: 95%;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+}
+
+/* For readability, which is a key part of this theme */
+[data-theme='dark'] {
+  --ifm-color-primary: #a14bf5;
+  --ifm-color-primary-dark: #8a2be2;
+  --ifm-color-primary-darker: #731bc4;
+  --ifm-color-primary-darkest: #591599;
+  --ifm-color-primary-light: #ab5bf6;
+  --ifm-color-primary-lighter: #b56bf7;
+  --ifm-color-primary-lightest: #ca8bf9;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+}
+
+/* Premium UI Enhancements */
+
+/* Glassmorphism for Navbar */
+.navbar {
+  backdrop-filter: blur(12px);
+  background-color: rgba(255, 255, 255, 0.7);
+  border-bottom: 1px solid rgba(138, 43, 226, 0.1);
+}
+
+[data-theme='dark'] .navbar {
+  background-color: rgba(20, 20, 30, 0.7);
+  border-bottom: 1px solid rgba(161, 75, 245, 0.1);
+}
+
+/* Hero Section Gradient - Purple/Pink/Blue */
+.hero--primary {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 50%, #ff758c 100%);
+  color: white;
+}
+
+/* Card Hover Effects */
+.card {
+  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+  border-radius: 16px;
+  overflow: hidden;
+  border: 1px solid rgba(0, 0, 0, 0.05);
+}
+
+.card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 15px 30px rgba(138, 43, 226, 0.15);
+  border-color: var(--ifm-color-primary-light);
+}
+
+/* Button Gradients */
+.button--primary {
+  background: linear-gradient(90deg, #8a2be2 0%, #ff0080 100%);
+  border: none;
+  transition: transform 0.2s, box-shadow 0.2s;
+  box-shadow: 0 4px 15px rgba(138, 43, 226, 0.3);
+}
+
+.button--primary:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(138, 43, 226, 0.4);
+  opacity: 1;
+  /* Override default opacity change */
+}
+
+.button--secondary {
+  background: white;
+  color: #8a2be2;
+  border: 2px solid #8a2be2;
+  font-weight: bold;
+}
+
+.button--secondary:hover {
+  background: #f3e5ff;
+  border-color: #8a2be2;
+}
+
+/* Urdu Note Styling */
+.urdu-note .admonition {
+  border-right: 5px solid var(--ifm-color-primary);
+  border-left: none;
+  background: linear-gradient(90deg, rgba(138, 43, 226, 0.05) 0%, transparent 100%);
+  border-radius: 8px;
+}
+
+/* Chatbot Button Pulse Animation */
+@keyframes pulse {
+  0% {
+    box-shadow: 0 0 0 0 rgba(138, 43, 226, 0.7);
+  }
+
+  70% {
+    box-shadow: 0 0 0 15px rgba(138, 43, 226, 0);
+  }
+
+  100% {
+    box-shadow: 0 0 0 0 rgba(138, 43, 226, 0);
+  }
+}
+
+.chat-button-pulse {
+  animation: pulse 2s infinite;
+}

@@ -1,0 +1,38 @@
+{
+  "version.label": {
+    "message": "اگلا",
+    "description": "The label for version current"
+  },
+  "sidebar.tutorialSidebar.category.Module 0: Introduction to Physical AI": {
+    "message": "ماڈیول 0: فزیکل AI کا تعارف",
+    "description": "The label for category 'Module 0: Introduction to Physical AI' in sidebar 'tutorialSidebar'"
+  },
+  "sidebar.tutorialSidebar.category.Module 1: ROS 2": {
+    "message": "ماڈیول 1: ROS 2",
+    "description": "The label for category Module 1"
+  },
+  "sidebar.tutorialSidebar.category.Module 1: ROS 2 – Robotic Nervous System": {
+    "message": "Module 1: ROS 2 – Robotic Nervous System",
+    "description": "The label for category 'Module 1: ROS 2 – Robotic Nervous System' in sidebar 'tutorialSidebar'"
+  },
+  "sidebar.tutorialSidebar.category.Module 2: Gazebo & Unity – Digital Twin": {
+    "message": "Module 2: Gazebo & Unity – Digital Twin",
+    "description": "The label for category 'Module 2: Gazebo & Unity – Digital Twin' in sidebar 'tutorialSidebar'"
+  },
+  "sidebar.tutorialSidebar.category.Module 3: NVIDIA Isaac AI-Robot Brain": {
+    "message": "Module 3: NVIDIA Isaac AI-Robot Brain",
+    "description": "The label for category 'Module 3: NVIDIA Isaac AI-Robot Brain' in sidebar 'tutorialSidebar'"
+  },
+  "sidebar.tutorialSidebar.category.Module 4: Vision-Language-Action (VLA)": {
+    "message": "Module 4: Vision-Language-Action (VLA)",
+    "description": "The label for category 'Module 4: Vision-Language-Action (VLA)' in sidebar 'tutorialSidebar'"
+  },
+  "sidebar.tutorialSidebar.category.Module 5: Capstone Project": {
+    "message": "Module 5: Capstone Project",
+    "description": "The label for category 'Module 5: Capstone Project' in sidebar 'tutorialSidebar'"
+  },
+  "sidebar.tutorialSidebar.category.Module 6: Hardware Setup": {
+    "message": "Module 6: Hardware Setup",
+    "description": "The label for category 'Module 6: Hardware Setup' in sidebar 'tutorialSidebar'"
+  }
+}

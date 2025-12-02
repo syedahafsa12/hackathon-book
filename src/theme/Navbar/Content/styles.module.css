@@ -1,0 +1,10 @@
+.colorModeToggle {
+  margin: 0 0.5rem;
+}
+.loginLink {
+  color: inherit;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
